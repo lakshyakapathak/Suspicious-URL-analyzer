@@ -29,6 +29,13 @@ The main objectives of this project are:
 
 ## Project Structure
 suspicious-url-analyzer/
+suspicious-url-analyzer/
 |
 +-- src/
-| | +-- main.py
+|   +-- main.py
+|   +-- url_validator.py
+|   +-- feature_extractor.py
+|   +-- rules.py
+|   +-- risk_analyzer.py
+|   +-- report_generator.py
+|   +-- database.py
