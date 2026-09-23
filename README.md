@@ -26,3 +26,12 @@ The main objectives of this project are:
 - Testing: pytest
 - Version Control: Git
 - Documentation: GitHub
+
+## Project Structure
+suspicious-url-analyzer/
+|
+|-src/
+| |- main.py
+| |- url_validator.py
+| |- feature_extractor.py
+
