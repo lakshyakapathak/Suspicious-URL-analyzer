@@ -9,7 +9,7 @@ The Suspicious URL analyzer focuses on:
 - URL validation: checking if the URL has valid structure.
 - URL feature extraction: extracting the characteristics of the provided URL.
 - Detecting possibly suspicious characteristics in the provided URL.
-- Scoring risk level.
+- Calculating a risk level.
 - Providing a final result ; a risk assessment that explains the risk-level of the provided URL.
 
 ## Target Users
@@ -19,3 +19,9 @@ The Suspicious URL analyzer focuses on:
 ## High-level features
 - URL input and validation: accepting and checking if the URL provided is valid.
 - Extraction of features: extracting features from the URL.
+- Analyzing the URL: Examine the URL against a set of predefined rules.
+- Risk-score calculation: Calculating the level of risk associated with the URL.
+- Risk-classification: Classifying the risk associated with the URL as Low, Moderate or High.
+- Risk-assessment: Providing the risk-score,assessment and the reasons behind the same.
+- Analysis history: Storing the previous results for future references.
+
