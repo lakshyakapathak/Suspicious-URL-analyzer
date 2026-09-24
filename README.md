@@ -28,8 +28,20 @@ The main objectives of this project are:
 - Documentation: GitHub
 
 ## Project Structure
-suspicious-url-analyzer/
-│
-├ src/
+suspicious-url-analyzer/                 
+├── src/
+│   ├── main.py           
+│   ├── url_validator.py              
+│   ├── feature_extractor.py          
+│   ├── rules.py           
+│   ├── risk_analyzer.py          
+│   └── report_generator.py           
+│   └── database.py       
+│          
+├── tests/                 
+│  └── test_analyzer/                   
+├── requirements.txt
+├── README.md
+└── statement.md
 
 
