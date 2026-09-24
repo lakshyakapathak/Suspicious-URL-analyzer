@@ -2,11 +2,11 @@
 
 ## Overview
 Suspicious URL analyzer is a python-based, rule-driven project that examines URLs and identifies characteristics that may indicate suspicious or potentially unsafe links and generates a risk assessment.
-It focuses on analyzing the structure and properties of a URL rather than interacting with the website behind the URL. The system analyzes multiple indicators, gives the results using a rule-based approach,
+It focuses on analyzing the structure and properties of a URL rather than interacting with the website behind the URL. The system checks with multiple indicators, gives the results using a rule-based approach,
 and provides the user with a risk level associated with the URL along with the reasons for the assessment.
 
 ## Problem Statement
-Often URLs are encountered by people all over the world through emails, text messages, websites and social media platforms. Some of these URLs may contain suspicious characteristics that are not easily 
+URLs are often encountered by people all over the world through emails, text messages, websites and social media platforms. Some of these URLs may contain suspicious characteristics that are not easily 
 identifiable manually without technical knowledge. This project addresses this problem by developing a Python-based program that operates on a few predefined rules and helps determine if a given URL is potentially 
 harmful, misleading or suspicious by providing a risk level assessment. However, a risk classification does not guarantee that a URL is safe or malicious.
 
