@@ -29,4 +29,7 @@ The main objectives of this project are:
 
 ## Project Structure
 suspicious-url-analyzer/
+│
+├ src/
+
 
