@@ -23,5 +23,5 @@ The Suspicious URL analyzer focuses on:
 - Risk-score calculation: Calculating the level of risk associated with the URL.
 - Risk-classification: Classifying the risk associated with the URL as Low, Moderate or High.
 - Risk-assessment: Providing the risk-score,assessment and the reasons behind the same.
-- Analysis history: Storing the previous results for future references.
+
 

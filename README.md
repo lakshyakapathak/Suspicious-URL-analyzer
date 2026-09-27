@@ -19,10 +19,17 @@ The main objectives of this project are:
 - To show the risk level along with the reasons for the risk score
 - To test the system by using different sample URLs
 
+## Features
+- URL input and validation: accepting and checking if the URL provided is valid.
+- Extraction of features: extracting features from the URL.
+- Analyzing the URL: Examine the URL against a set of predefined rules.
+- Risk-score calculation: Calculating the level of risk associated with the URL.
+- Risk-classification: Classifying the risk associated with the URL as LOW,MEDIUM or HIGH.
+- Risk-assessment: Providing the risk-score,assessment and the reasons behind the same.
+
 ## Technologies/Tools Used
 - Language: Python 3.10+
 - Development Environment: VS Code
-- Storage: SQLite3
 - Testing: pytest
 - Version Control: Git
 - Documentation: GitHub
@@ -35,14 +42,47 @@ suspicious-url-analyzer/
 │   ├── url_validator.py              
 │   ├── feature_extractor.py          
 │   ├── rules.py           
-│   ├── risk_analyzer.py          
-│   └── report_generator.py           
-│   └── database.py       
-│          
-├── tests/                 
-│  └── test_analyzer.py                  
+│   ├── risk_analyzer.py
+│   └── report_generator.py
+│
+├── tests/
+│   └── test_analyzer.py
+│
 ├── requirements.txt
 ├── README.md
 └── statement.md
-```
+```        
+## INSTALLATION AND RUNNING
+### Prerequisites
+- Python 3.10(or higher installed)
+- Git
+- pip(Pthon Package Manager)
+### Steps to install and run
+1.Clone the repository: 
+https://github.com/lakshyakapathak/Suspicious-URL-analyzer.git
+
+2.Install dependencies:
+pip install-r requirements.txt
+
+3.Run the analyzer:
+python src/main.py
+
+4.Enter a URL when prompted. The program will display the risk score, risk level and the reasons for the same.Type n to exit when asked to enter another URL and type y if you want to continue.
+
+## TESTING
+This project includes a test suite built with pytest, covering url validation, feature extraction and a risk analysis.
+
+To run the tests:
+pytest tests/test_analyzer.py-v
+
+All 5 tests should pass, verifying:
+- Correct validation of valid and invalid URLs.
+- Accurate detection of IP address hosts.
+- Correct counting of suspicious keywords.
+- Correct risk scoring and classification for a known high-risk URLs.
+
+
+
+
+
 
