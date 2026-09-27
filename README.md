@@ -62,10 +62,10 @@ suspicious-url-analyzer/
 https://github.com/lakshyakapathak/Suspicious-URL-analyzer.git
 
 2.Install dependencies:
-'pip install -r requirements.txt'
+`pip install -r requirements.txt`
 
 3.Run the analyzer:
-'python src/main.py'
+`python src/main.py`
 
 4.Enter a URL when prompted. The program will display the risk score, risk level and the reasons for the same.Type n to exit when asked to enter another URL and type y if you want to continue.
 
@@ -73,7 +73,7 @@ https://github.com/lakshyakapathak/Suspicious-URL-analyzer.git
 This project includes a test suite built with pytest, covering url validation, feature extraction and a risk analysis.
 
 To run the tests:
-'pytest tests/test_analyzer.py -v'
+`pytest tests/test_analyzer.py -v`
 
 All 5 tests should pass, verifying:
 - Correct validation of valid and invalid URLs.
