@@ -10,11 +10,11 @@ def analyze(features):
         triggered_rules.append((r.__name__,points))
     if total_score>=35:
        
-       level="HIGH"
+       level="LIKELY MALICIOUS"
     elif total_score>=15:
-        level="MEDIUM"
+        level="SUSPICIOUS"
     else:
-        level="LOW"
+        level="LIKELY LEGITIMATE"
 
     return total_score,level,triggered_rules
 
