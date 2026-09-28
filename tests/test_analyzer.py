@@ -21,5 +21,5 @@ def test_keyword_count():
 def test_high_risk_ip_url():
     features = feature_extractor("http://192.168.1.1/login")
     score, level, triggered_rules = analyze(features)
-    assert level=="HIGH"
+    assert level=="LIKELY MALICIOUS"
     assert score==43
