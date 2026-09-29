@@ -83,6 +83,11 @@ All 5 tests should pass, verifying:
 
 
 ## SCREENSHOTS AND OUTPUTS
+![alt text](<Screenshot 2026-09-29 175831.png>)
+-Shows the analyzer as it evaluates multiple URLs across all three risk categories(LIKELY LEGITIMATES, SUSPICIOUS, LIKELY MALICIOUS)and invalidates unsupported URL schemes.
+
+![alt text](<Screenshot 2026-09-29 180515.png>)
+-All 5 pytests passing, including URL validation, feature extraction and risk analysis.
 
 
 
