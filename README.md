@@ -24,7 +24,7 @@ The main objectives of this project are:
 - Extraction of features: extracting features from the URL.
 - Analyzing the URL: Examine the URL against a set of predefined rules.
 - Risk-score calculation: Calculating the level of risk associated with the URL.
-- Risk-classification: Classifying the risk associated with the URL as LOW,MEDIUM or HIGH.
+- Risk-classification: Classifying the risk associated with the URL as LIKELY LEGITIMATE, SUSPICIOUS or LIKELY MALICIOUS.
 - Risk-assessment: Providing the risk-score,assessment and the reasons behind the same.
 
 ## Technologies/Tools Used
@@ -56,7 +56,7 @@ suspicious-url-analyzer/
 ### Prerequisites
 - Python 3.10(or higher installed)
 - Git
-- pip(Pthon Package Manager)
+- pip (Python Package Manager)
 ### Steps to install and run
 1.Clone the repository: 
 https://github.com/lakshyakapathak/Suspicious-URL-analyzer.git
@@ -84,10 +84,10 @@ All 5 tests should pass, verifying:
 
 ## SCREENSHOTS AND OUTPUTS
 ![alt text](<Screenshot 2026-09-29 175831.png>)
--Shows the analyzer as it evaluates multiple URLs across all three risk categories(LIKELY LEGITIMATES, SUSPICIOUS, LIKELY MALICIOUS)and invalidates unsupported URL schemes.
+- Shows the analyzer as it evaluates multiple URLs across all three risk categories(LIKELY LEGITIMATES, SUSPICIOUS, LIKELY MALICIOUS)and invalidates unsupported URL schemes.
 
 ![alt text](<Screenshot 2026-09-29 180515.png>)
--All 5 pytests passing, including URL validation, feature extraction and risk analysis.
+- All 5 pytests passing, including URL validation, feature extraction and risk analysis.
 
 
 
